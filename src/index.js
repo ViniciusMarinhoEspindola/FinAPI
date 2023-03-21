@@ -19,8 +19,6 @@ function verifyIfExistsAccountCPF(request, response, next) {
   request.customer = customer;
 
   return next();
-
-  console.log("teste");
 }
 
 /**
